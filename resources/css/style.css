@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+/*Header*/
+
+header {
+    z-index: 100;
+    width: 100%;
+    /*border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    text-shadow:rgb(7, 7, 7);*/
+}
+
+header .banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+header .download {
+    /*line-height: 1;*/
+    font-size: 16px;
+    color: aquamarine;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+/*Main*/
+
+.phone video {
+    align-items: center;
+    /*position: relative;*/
+    padding-left: 425px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+.zbytek {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#kontakt {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.proklik {
+    text-align: center;
+    color: rgb(92, 88, 88);
+    font-size: 25px;
+}
+
+.img-container img{
+    align-items: center;
+    padding-left: 175px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+
+.konec {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.konec .img-container img {
+    padding-left: 600px;
+}
